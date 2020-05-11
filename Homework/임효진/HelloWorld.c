@@ -1,7 +1,11 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
+	printf("%s\n", "이름: 홍길동");
+	printf("%s\n", "성별: 남");
+	printf("%s\n", "학번: 1900100100");
+	printf("%s\n", "나이: 120살");
 
-	printf("Hello World!\n");
-
+	return 0;
 }
