@@ -24,5 +24,5 @@ int main() {
 		num2 = tmp;
 	}
 
-	printf("%d", &num2);
+	printf("%p", &num2);
 }
